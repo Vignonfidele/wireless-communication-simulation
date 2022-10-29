@@ -1,0 +1,103 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2692,         93]
+NotebookOptionsPosition[      2307,         79]
+NotebookOutlinePosition[      2648,         94]
+CellTagsIndexPosition[      2605,         91]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Integral]", "B", "\[Infinity]"], 
+  RowBox[{
+   RowBox[{"[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Exp", "[", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"x", "^", "2"}]}], "/", "2"}], "]"}], "*", "B", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", 
+         SqrtBox[
+          RowBox[{"-", 
+           SuperscriptBox["B", "2"]}]]}], "+", 
+        SqrtBox[
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["B", "2"]}], "+", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"x", "/", 
+             SqrtBox["g"]}], ")"}], "2"]}]]}], ")"}]}], "-", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"x", "/", 
+          SqrtBox["g"]}], ")"}], "2"], " ", "\[Pi]"}], "4"], "+", 
+     FractionBox[
+      RowBox[{"B", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"x", "/", 
+          SqrtBox["g"]}], ")"}], "2"], " ", 
+       RowBox[{"ArcSinh", "[", 
+        SqrtBox[
+         RowBox[{"-", 
+          FractionBox[
+           SuperscriptBox["B", "2"], 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"x", "/", 
+              SqrtBox["g"]}], ")"}], "2"]]}]], "]"}]}], 
+      SqrtBox[
+       RowBox[{"-", 
+        SuperscriptBox["B", "2"]}]]]}], "]"}], 
+   RowBox[{"\[DifferentialD]", "x"}]}]}]], "Input",
+ EmphasizeSyntaxErrors->True,
+ CellLabel->"In[25]:=",ExpressionUUID->"9f883e3e-7cbd-4a05-979d-ab41be05f3db"],
+
+Cell[BoxData[
+ RowBox[{"p", "="}]], "Input",
+ CellChangeTimes->{{3.870463599141708*^9, 3.8704636033809233`*^9}},
+ EmphasizeSyntaxErrors->True,
+ CellLabel->"In[25]:=",ExpressionUUID->"965a364a-e0d4-4c38-a37c-3b76e5161bc5"]
+},
+WindowSize->{848, 771},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.0 para Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1521, 51, 96, "Input",ExpressionUUID->"9f883e3e-7cbd-4a05-979d-ab41be05f3db"],
+Cell[2082, 73, 221, 4, 61, "Input",ExpressionUUID->"965a364a-e0d4-4c38-a37c-3b76e5161bc5"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
